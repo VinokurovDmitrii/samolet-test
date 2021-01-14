@@ -1,0 +1,21 @@
+.item-card {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,.15);
+    border: 1px solid rgba(206,209,213,.4);
+    margin-top: 20px;
+    transition: box-shadow .3s;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.item-card:hover {
+    box-shadow: 0 20px 44px -19px rgba(0,0,0,.15);
+}
+.item-card__info {
+    display: flex;
+    justify-content: space-between;
+}
+.item-card__addressList {
+    margin-top: 20px;
+}
